@@ -1,8 +1,12 @@
-export type { ColorfulButtonProps } from './components/colorful-button';
-export { default as ColorfulButton } from './components/colorful-button';
+// export type { ColorfulButtonProps } from './components/colorful-button';
+// export { default as ColorfulButton } from './components/colorful-button';
+// 
+// export type { ColorfulInputProps } from './components/colorful-input';
+// export { default as ColorfulInput } from './components/colorful-input';
 
-export type { ColorfulInputProps } from './components/colorful-input';
-export { default as ColorfulInput } from './components/colorful-input';
+
+export type { BlockProps } from './components/block';
+export { default as Block } from './components/block';
 
 const bizCssPrefix = 'bizpack';
 

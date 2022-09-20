@@ -1,3 +1,4 @@
+import BlockMeta from '/home/rui/playground/lowcode-component/lowcode/block/meta'
 import ColorfulButtonMeta from '/home/rui/playground/lowcode-component/lowcode/colorful-button/meta'
 import ColorfulInputMeta from '/home/rui/playground/lowcode-component/lowcode/colorful-input/meta'
 
@@ -101,7 +102,7 @@ function fillRealVersion(meta, packageName = 'lowcode-component', version = '0.1
   return meta;
 }
 
-const componentMetas = [ColorfulButtonMeta,ColorfulInputMeta];
+const componentMetas = [BlockMeta,ColorfulButtonMeta,ColorfulInputMeta];
 const components = [];
 const npmInfo = {};
 componentMetas.forEach(meta => {
