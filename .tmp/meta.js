@@ -1,6 +1,6 @@
 import BlockMeta from '/home/rui/playground/lowcode-component/lowcode/block/meta'
-import ColorfulButtonMeta from '/home/rui/playground/lowcode-component/lowcode/colorful-button/meta'
-import ColorfulInputMeta from '/home/rui/playground/lowcode-component/lowcode/colorful-input/meta'
+import LinkMeta from '/home/rui/playground/lowcode-component/lowcode/link/meta'
+import TextMeta from '/home/rui/playground/lowcode-component/lowcode/text/meta'
 
 const componentCategorySort = {};
 ["基础元素","布局容器类","表格类","表单详情类","帮助类","对话框类","业务类","通用","引导","信息输入","信息展示","信息反馈"]
@@ -102,7 +102,7 @@ function fillRealVersion(meta, packageName = 'lowcode-component', version = '0.1
   return meta;
 }
 
-const componentMetas = [BlockMeta,ColorfulButtonMeta,ColorfulInputMeta];
+const componentMetas = [BlockMeta,LinkMeta,TextMeta];
 const components = [];
 const npmInfo = {};
 componentMetas.forEach(meta => {
